@@ -18,12 +18,20 @@ Interactive Maven project generation CLI tool. Run it from any directory and it 
 
 ## Installation
 
-Download the latest release and add the executable to your `PATH`. The wizard will store your configuration under:
+The wizard is distributed as a portable ZIP containing a Fat JAR and wrapper scripts for Linux/macOS and Windows.
 
-- **Linux / macOS**: `~/.config/mvninit/descriptor.json`
-- **Windows**: `%APPDATA%\mvninit\descriptor.json`
+1. Download the latest release ZIP and extract it to a permanent folder (e.g., ~/.local/share/java-maven-wizard or C:\tools\java-maven-wizard).
+2. Add to PATH:
 
-This directory is created automatically on first use.
+- Linux / macOS: Add export PATH="$HOME/.local/share/java-maven-wizard:$PATH" to your ~/.bashrc or ~/.zshrc, then run source ~/.bashrc.
+- Windows: Add the folder path to your User Environment Variables under Path.
+
+### Configuration Storage
+
+The wizard automatically stores your last used values in a JSON descriptor to provide defaults for your next project:
+
+- Linux / macOS: ~/.config/mvninit/descriptor.json
+- Windows: %APPDATA%\mvninit\descriptor.json
 
 ## Usage
 

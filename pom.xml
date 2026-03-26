@@ -6,7 +6,7 @@
 
     <groupId>com.lacavedeharol</groupId>
     <artifactId>java-maven-wizard</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <name>java-maven-wizard</name>
     <description>Interactive Maven project generation CLI tool.</description>
