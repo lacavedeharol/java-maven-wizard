@@ -18,7 +18,8 @@ Interactive Maven project generation CLI tool. Run it from any directory and it 
 
 ## Installation
 
-Download the latest release and add the executable to your `PATH`. The wizard will store your configuration under:
+An installer is provided for Windows; alternatively, download the raw release folder and add it to your `PATH`.
+The wizard will store your configuration under:
 
 - **Linux / macOS**: `~/.config/mvninit/descriptor.json`
 - **Windows**: `%APPDATA%\mvninit\descriptor.json`
@@ -68,6 +69,12 @@ my-app/
 ## Configuration Persistence
 
 Your last set of inputs is saved automatically after each successful generation and used as default values the next time you run the wizard.
+
+## Licensing
+
+This project is licensed under the MIT License - see [`LICENSE`](LICENSE) for details.
+
+This tool bundles [JLine](https://github.com/jline/jline3), distributed under the BSD 3-Clause License. See [`THIRD-PARTY-LICENSES.txt`](THIRD-PARTY-LICENSES.txt) for the full notice.
 
 ## Author
 
